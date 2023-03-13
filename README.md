@@ -78,7 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link](https://ab-noori.github.io/To-Do-List/dist/)
+> - [Live Demo Link](https://ab-noori.github.io/Todo-List-for-Review/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
