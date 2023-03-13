@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary-color: #dddada;
+$secondary-color: #fff;
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-color;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: $secondary-color;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px 20px;
+  max-width: 100%;
+  width: 700px;
+}
+
+h1 {
+  margin: 0;
+  opacity: 0.5;
+  align-self: center;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.btn {
+  background-color: $primary-color;
+  color: #794242;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+
+  & #new-task {
+    height: 30px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+    position: relative;
+
+    &::placeholder {
+      font-style: italic;
+    }
+
+    &:focus {
+      outline: 0.3px solid greenyellow;
+      outline-style: dotted;
+    }
+  }
+
+  & li {
+    padding: 10px;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+    display: flex;
+    gap: 20px;
+    position: relative;
+
+    & .edit {
+      font-weight: 1000;
+      color: green;
+      position: absolute;
+      right: 50px;
+      cursor: pointer;
+    }
+
+    & .delete {
+      font-weight: 1000;
+      color: red;
+      position: absolute;
+      right: 15px;
+      cursor: pointer;
+    }
+  }
+
+  & .completed {
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+
+  & .edit-task {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    outline: 1px solid red;
+    outline-style: dotted;
+    background-color: transparent;
+  }
+
+  & .edit-highlight {
+    background-color: yellowgreen;
+  }
+}

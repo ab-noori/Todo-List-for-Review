@@ -2,15 +2,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./src/assets/project-image.png" alt="logo" width="500"  height="auto" />
-  <br/>
-
-  <h3><b></b></h3>
-
-</div>
-
 <!-- Open pull request using the following structure
 
   ## Project title: subtitle
@@ -25,12 +16,13 @@
 
 -->
 
-> # Template Repository
+> # To-Do List
 ### Desktop view shoots for this project:
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|![screenshot](./src/assets/project-image.png)|
+|![screenshot](./src/assets/project-shot.PNG)|
+|![screenshot](./src/assets/project-shot2.PNG)|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -58,11 +50,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [To-Do-List] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> **[To-Do List]** is a simple project build to add the todo tasks, check as completed and remove the task. This simple web page will be built using webpack and served by a webpack dev server.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,8 +60,9 @@
 - <summary>Client</summary>
     <ul>
       <li><a href="https://reactjs.org/">HTML</a></li>
-      <li><a href="https://reactjs.org/">Bootstrap</a></li>
-      <li><a href="https://reactjs.org/">JavaScript</a></li>
+      <li><a href="https://reactjs.org/">SCSS</a></li>
+      <li><a href="https://reactjs.org/">Webpack</a></li>
+      <li><a href="https://reactjs.org/">Vanilla JavaScript</a></li>
     </ul>
 
 
@@ -87,9 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://ab-noori.github.io/Project-Template/)
+> - [Live Demo Link](https://ab-noori.github.io/To-Do-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,11 +113,18 @@ Install this project with:
 
 
 ### Usage
+- Use following commands to run on your local system:
 
-- To add data the local storage of browser
-- To read data from local storage of browser.
-- To display data.
-- To remove data from local storage.
+      npm run build
+      npm run dev
+
+### Run tests
+- Run the following script and style test:
+
+      npx eslint .
+      npx stylelint "**/*.{css,scss}"
+ 
+
 
 ### Deployment
 
@@ -147,12 +143,6 @@ You can deploy this project using:
 - GitHub: [@ab-noori](https://github.com/ab-noori)
 - Twitter: [@AbdulAliNoori4](https://twitter.com/AbdulAliNoori4)
 - LinkedIn: [abdul-ali-noori](https://www.linkedin.com/in/abdul-ali-noori-384b85195/)
-
-👤 **Samson Tush**
-
-- GitHub: [@Samson](https://github.com/SamTush)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
