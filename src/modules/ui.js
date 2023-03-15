@@ -13,16 +13,12 @@ class UI {
 
     // valitdate empty form
     if (newTask !== '') {
-      // making object of Book class
       const task = new Task(newTask);
 
-      // add book to UI
       UI.addTaskToList(task);
 
-      // add book to store
       Store.addTask(task);
 
-      // clear fields
       UI.clearFields();
     }
   }
