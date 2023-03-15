@@ -40,7 +40,6 @@ document.querySelector('#todo-list').addEventListener('change', (e) => {
 
 // Event: update a task
 document.querySelector('#todo-list').addEventListener('keypress', (e) => {
-
   if (e.key === 'Enter' && e.target.classList.contains('edit-task')) {
     e.preventDefault();
     Store.updateTask(e.target);
